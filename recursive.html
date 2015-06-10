@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript" charset="utf-8">
+        var myObject = {
+            func1:  function() {
+                alert(1);
+                this.func1();
+            }
+        };
+        myObject.func1();
+    </script>
+</body>
+</html>
